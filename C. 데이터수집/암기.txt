@@ -1,0 +1,14 @@
+f = open()
+파일을 저장하거나 읽을 수 있는 기능을 제공하는 파일 객체를 리턴하는 함수
+"객체이름 = open(파일경로, 읽기모드, encoding = '인코딩')
+
+.write()
+.close()
+.read()
+.readlines()
+
+with open("파일경로", "읽기모드", encoding= '인코딩') as f:
+
+
+
+

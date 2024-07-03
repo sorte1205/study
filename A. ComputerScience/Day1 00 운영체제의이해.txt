@@ -1,0 +1,57 @@
+Day 1
+
+운영체제의 이해
+
+1. 운영체제의 목적
+	- 하드웨어, 소프트웨어를 관리해 유기적으로 동작하게 함.
+	- Windows, MacOS, Linux
+
+2. 운영체제의 구분
+
+	- 역할에 따라
+		- 서버: 중개, 서비스 제공
+		- 클라이언트: 서비스 요청 (일반 사용자)
+
+	- 용도에 따라
+		- 클라이언트용 운영체제 (단일 사용자용)
+			- 윈도우계열: Window xp, 7,8,9,10
+			- 애플계열: MacOs
+			- 스마트폰용 운영체제: android, iOS
+		- 서버용 운영체제 (다중 사용자용)
+			- 윈도우 서버 계열 (비쌈)
+			- 유닉스, 리눅스 계열: Solaris, red hat, fedora, ubuntu 
+
+3. 종류별 변천사 (시험용)
+	
+	- Unix (최초, 명령어 위주, 어려움, 다중사용자용) 
+		- SunOS (망했음)
+		- Solaris (망했음)
+		- Linux (오픈소스, 기업용)
+			- Fedora (Linux 배포판)
+				- RedHat (기업에서 많이 씀, 유료)
+					- CentOS
+				- Ubuntu (무료)
+				- Suse
+				- Hancom (공기업?)
+		- MacOS (=OSX, 개인용)
+
+	
+
+	- MS-DOS (PC/개인용)
+		- Windows95	
+			- Windows98: 돈이 안됨.
+				- Windows ME (파일관리가 불안정: 블루스크린. 현재는 단종
+
+
+
+
+	- WindowNT 다중사용자용(?)
+		- Window2000 professionla: (NT5.0개인용)
+			- Window XP (NT5.1) 
+				- Window7/8
+					- Window 10
+		- Window2000 server (서버용)
+			- Window 20xx Server
+
+
+

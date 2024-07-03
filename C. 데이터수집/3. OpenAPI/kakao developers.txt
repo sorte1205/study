@@ -1,0 +1,37 @@
+Kakao developers
+
+내 애플리케이션 / 
+REST API키: dad57e5d6bd34ed6ab195acb162c5995
+
+
+Daum 검색
+Rest API
+책검색하기
+URL: https://dapi.kakao.com/v3/search/book
+
+헤더
+Authorization:
+Authorization: KakaoAK ${REST_API_KEY}		${}포함해 통째로 바꿔야함
+		KakaoAK dad57e5d6bd34ed6ab195acb162c5995
+page * size = 2500 
+기본값 : 1
+결과값이 상수가 아니므로 무한루프를 돌려 전체 데이터를 끌어온다
+시간이 오래걸리므로 비동기
+
+Meta
+is_end -> while문으로..
+
+
+
+VScode extension: Thunder client 확장앱
+
+	- Query
+		입력값: Query = 파이썬
+	- Header
+		입력값: Authorization = KakaoAK dad57e5d6bd34ed6ab195acb162c5995
+
+	-> send
+	status에 response보고 결과를 예측하고 들어가자.
+
+
+

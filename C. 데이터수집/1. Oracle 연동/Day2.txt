@@ -1,0 +1,8 @@
+파이썬에서 (클라이언트) 서버로 요청을 보냄 (URL)
+	클라이언트(CRUD)		서버
+	- create 요청 (데이터 생성)	insert
+	- read 				select
+	- update			update
+	- delete			delete
+
+

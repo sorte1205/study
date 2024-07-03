@@ -1,0 +1,55 @@
+Day2 파이썬 02 파이썬 개발환경 구성
+
+
+
+
+1. 사용자 인터페이스
+
+	UI 
+	- CLI (Command Line Interface)
+		- ex. cmd
+	- GUI
+		- ex. 메뉴, 아이콘, 버튼
+	
+	IDE (integrated development environment) 통합 개발 환경
+		- 코딩
+			Source code
+		- 디버깅
+		- 컴파일
+		- 배포
+
+
+2. 개발환경 구성
+
+	Python 설치 여부 확인하기
+	winkey + R + cmd
+		python -- version 
+			Python 3.11.5
+	Python 설치
+		방대한 libraryy	
+			오픈소스들을 이용할 수 있는 버전을 설치하는게 중요.
+			Scikit learn (python 3.8이상이 필요)
+			TensorFlow (google deeplearning 배포 lib. tensorflow2는 python 3.8-3.9까지 )
+	Pip 업그레이드
+		python -m pip install --upgrade pip (cmd에서)
+	Jupyterlab 설치
+		pip install jupyterlab (cmd에서)
+		cmd 에서 jupyter lab을 치게되면, 웹페이지가 열리게 된다. -> 웹에서 jupyter lab 사용하기
+		Visual Studio Code 에서 jupyter lab을 사용할 수 있다.
+
+	**파일이나 폴더이름에 띄어쓰기(대신 언더바를 쓴다)나 한글은 안쓰는 걸로. 
+
+	cd (change directory)
+		cd /d E:\ 
+			드라이브 자체를 바꾸고 싶은 경우 /d를 붙여서 directory를 바꿔준다
+
+
+	Visual Studio Code 설치 
+	Visual studio extensions
+		Theme
+		Icon theme
+		python (microsoft)
+
+
+
+		 

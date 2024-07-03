@@ -1,0 +1,22 @@
+requests: 원본 소스 요청하는 모듈
+session = requests.session()
+session.headers.update({
+	"Referer":
+	"User-agent":
+})
+r = session.get(url)
+r.encoding = "utf-8"
+print(type(r.text))
+print(r.text)
+
+import requests
+import json
+
+session = requests.session()
+url = "https://data.hossam.kr/py/sample.json"
+r= session.get(url)
+r.status_code
+
+mydict = json.loads(r.text)
+print(type(mydict))
+mydict

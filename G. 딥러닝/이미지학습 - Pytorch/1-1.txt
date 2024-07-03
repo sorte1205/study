@@ -1,0 +1,47 @@
+딥러닝 최적화 방법
+
+- Stochastic Gradient Descent
+	- Gradient 방향으로 weight를 움직이면 cost값도 이동(?)
+	- 에러가 0에 가까워지는 최소값을 찾게 됨
+	- 결국, error가 최소가 되는 weight을 구하기 원하는 것.
+	(gradient를 구하는 과정은 한 단계의 경사값 그리고 그 다음 단계의 경사값으로 차례차례 거쳐서 한다. (이걸 backward라 함)
+
+- autograd라는 함수값을 가지고 있음
+	- torch.autograd()
+
+- momentum 은 노이즈를 줄여주는 역할.
+
+
+
+- 넣고, error 구하고, loss 구하고, backward 이런 사이클을 반복.
+
+- require _grad=True 인 tensor 정의
+
+- q = 3*a**3 - b**2
+
+- backward할 때, external grad를 넣어줘야 함. 
+	backward의 이전의 gradient 값을 활용,  loss에 대한 x에 대한 gradient, y에 대한 gradient를 각각 구함.
+
+- a.grad 
+	a에 대한 Q의 grad
+- 9*a**2 
+	숫자에 대한 grad
+
+- loss.backward()는 모든 단계에 대해 자동으로 gradient를 구해준다는 의미.
+
+숙제: 
+	코드가 어떤 파일에 들어가는것일지?
+	model.py
+		neural network를 정의하는 코드
+	data.py
+		data를 불러오는 코드.
+	train.py
+`		import는 원래 main에 들어가는 거지만, 여기선 train에 넣어보도록 하자.
+		학습과정 설정 (ex. 두 번 돌면서 학습할거야. )
+		input, labels 
+		gradient 초기화
+		criterion = loss 정의
+		등등의 과정
+		
+		5000 번에 1번씩 그 때 그 때 구해서 loss의 평균을 구하기
+	

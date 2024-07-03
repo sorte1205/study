@@ -1,0 +1,23 @@
+파이썬에서 (클라이언트) 서버로 요청을 보냄 (URL)
+	클라이언트(CRUD)		서버
+	- create 요청 (데이터 생성)	insert
+	- read 				select
+	- update			update
+	- delete			delete
+
+응답
+	- txt
+	- xml
+	- json?
+
+
+통신환경에서 URL형식의 요청을 보냄 -> 서버는 CRUD 중 하나 수행 -> 결과를 JSON으로 돌려줌.
+
+	CRUD 체계: restful.?
+	
+	json을 restful api?라고 한다고?
+
+
+
+Open API
+	

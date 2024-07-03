@@ -1,0 +1,43 @@
+Visual Studio Code
+
+
+file -> 폴더열기
+Extensions
+	-> korean
+	-> vscode pdf
+	-> markdown pdf
+	-> markdown github styling
+	-> markdown all in one
+
+
+Ctrl Shift P (명령 단축키)
+	+ markdown open preview (미리보기)
+	+ markdown PDF (PDF변환)
+
+톱니바퀴 -> 설정 -> Font size
+	+ ctrl + s (저장)
+
+Extensions
+	-> Darcula theme
+	-> icon theme material 
+	-> 톱니바퀴 -> 테마 설정
+
+
+```
+```
+
+***
+---
+
+![그림]()
+[구글 바로가기](google.com)
+
+
+
+
+크롬 확장프로그램
+	markdown viewer 다운로드
+	설정 -> 확장프로그램 -> markdown viewer-> 세부정보
+		-> 파일URL에 대한 엑세스 허용
+
+	md 파일 -> 연결프로그램 -> chrome.exe  
